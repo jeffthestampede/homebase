@@ -25,6 +25,8 @@ gem 'simple_form', '~> 3.1.0rc1'
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder'
+# Devise for login
+gem 'devise'
 # Rails admin interface
 gem 'rails_admin'
 
