@@ -21,6 +21,8 @@ gem 'jquery-rails'
 gem 'bootstrap-sass'
 # Use simple forms
 gem 'simple_form', '~> 3.1.0rc1'
+# Use underscorejs for helpers
+gem 'underscore-rails'
 # Use angularjs for MVW
 gem 'angularjs-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
