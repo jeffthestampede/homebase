@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
 
   devise_for :users
+  devise_scope :user do
+    get '/secret', to: 'devise/sessions#create'
+  end
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
-
-  resources :teams
 
   root 'home#index'
 
