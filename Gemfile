@@ -21,8 +21,8 @@ gem 'jquery-rails'
 gem 'bootstrap-sass'
 # Use simple forms
 gem 'simple_form', '~> 3.1.0rc1'
-# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+# Use angularjs for MVW
+gem 'angularjs-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder'
 # Devise for login

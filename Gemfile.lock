@@ -27,6 +27,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
+    angularjs-rails (1.2.16)
     arel (5.0.1.20140414130214)
     bcrypt (3.1.7)
     bootstrap-sass (3.1.1.1)
@@ -153,8 +154,6 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
-    turbolinks (2.2.2)
-      coffee-rails
     tzinfo (1.1.0)
       thread_safe (~> 0.1)
     uglifier (2.5.0)
@@ -167,6 +166,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  angularjs-rails
   bootstrap-sass
   coffee-rails
   devise
@@ -181,5 +181,4 @@ DEPENDENCIES
   sdoc
   simple_form (~> 3.1.0rc1)
   spring
-  turbolinks
   uglifier
