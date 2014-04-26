@@ -1,4 +1,4 @@
 
-var HomeCtrl = function($scope) {
+var HomeCtrl = ['$scope', function($scope) {
   $scope.title = "Homebase";
-};
+}];
