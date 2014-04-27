@@ -5,7 +5,7 @@ var Homebase = angular.module('Homebase',['ngRoute']);
 Homebase.config(['$routeProvider', function($routeProvider) {
     //Default
     $routeProvider.otherwise({
-      templateUrl: '../assets/homeIndex.html',
+      templateUrl: '<%= asset_path("homeIndex.html") %>',
       controller: 'IndexCtrl'
     })
   }
