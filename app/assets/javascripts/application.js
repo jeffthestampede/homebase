@@ -15,4 +15,5 @@
 //= require bootstrap
 //= require underscore
 //= require angular
+//= require angular-route
 //= require_tree .

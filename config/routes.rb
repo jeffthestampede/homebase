@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   end
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
 
+  resources :teams
   root 'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
